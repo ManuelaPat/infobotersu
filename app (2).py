@@ -39,6 +39,7 @@ st.image(logo, width=800)
 #  file = st.file_uploader("Carica il tuo file", type="pdf")
 file = "DOC-20250604-WA0003.pdf"
 file = "Scheda Tecnica - Bando di concorso ERSU PALERMO 25_26.pdf"
+file = "Bando di concorso 2024_2025_ERSU Palermo.pdf"
 from PyPDF2 import PdfReader
 
 if file is not None:
