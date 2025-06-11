@@ -30,11 +30,12 @@ from langchain_community.chat_models import ChatOpenAI
 
 st.header(":credit_card: INFO ERSU BOT :credit_card:"
          """
-         <style>
-          #header{
-            font-family: "Lucida Console", "Courier New", monospace;
+           <style>
+            #header{
+              font-family: "Lucida Console", "Courier New", monospace;
             }
-          """
+            </style>
+        """
          )
 
 from PIL import Image
