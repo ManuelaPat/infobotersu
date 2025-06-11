@@ -12,12 +12,9 @@ st.markdown(
     """
     <style>
     .stApp {
-        font-family: "Lucida Console", "Courier New", monospace;
+        
         background-color: 	#f5fffa;
         color: #000000;
-    }
-    st.header{
-        font-family: "Lucida Console", "Courier New", monospace;
     }
     </style>
     """,
