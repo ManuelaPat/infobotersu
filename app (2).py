@@ -16,15 +16,11 @@ st.markdown(
         background-color: 	#f5fffa;
         color: #000000;
     }
+    st.header{
+        font-family: "Lucida Console", "Courier New", monospace;
+    }
     </style>
     """,
-        """
-          <style>
-            st.header{
-              font-family: "Lucida Console", "Courier New", monospace;
-            }
-          </style>
-        """
     unsafe_allow_html=True)
 
 chiave = st.secrets["superkey"]
