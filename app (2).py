@@ -18,6 +18,13 @@ st.markdown(
     }
     </style>
     """,
+        """
+          <style>
+            st.header{
+              font-family: "Lucida Console", "Courier New", monospace;
+            }
+          </style>
+        """
     unsafe_allow_html=True)
 
 chiave = st.secrets["superkey"]
@@ -28,15 +35,7 @@ from langchain.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
 from langchain_community.chat_models import ChatOpenAI
 
-st.header(":credit_card: INFO ERSU BOT :credit_card:"
-         """
-           <style>
-            #header{
-              font-family: "Lucida Console", "Courier New", monospace;
-            }
-            </style>
-        """
-         )
+st.header(":credit_card: INFO ERSU BOT :credit_card:")
 
 from PIL import Image
 logo = Image.open("foto chatbot.png")
